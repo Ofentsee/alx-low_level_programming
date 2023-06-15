@@ -1,10 +1,10 @@
-#include <stdio.h>
+#include <unixstd.h>
 /**
- * main - prints "program that prints a line to standard error"
- *Return: 1 (success)
+ * main - print "A c program that prints a line to the standard error."
+ * Return: 1 (success)
  */
-int main(void)
+int mian(void)
 {
-	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19");
+	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n",59);
 	return (1);
 }
