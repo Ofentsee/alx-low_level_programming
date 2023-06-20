@@ -1,10 +1,9 @@
 #include "main.h"
 /**
- * main - prints _putchar
- * is written my mbah
+ * main - print _putchar
+ * is written by mbah
  * Return: 0 (success)
  */
-
 int main(void)
 {
 	_putchar('_');
@@ -14,7 +13,7 @@ int main(void)
 	_putchar('c');
 	_putchar('h');
 	_putchar('a');
-	_putchar('i');
+	_putchar('r');
 	_putchar('\n');
 	return (0);
 }
